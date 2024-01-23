@@ -200,3 +200,24 @@ print(sum_numbers)
 sorted_tuple = sorted(random_tuple, reverse=False) 
 print(sorted_tuple) 
 print(type(sorted_tuple))
+
+
+# Dictionaries
+fruit_inventory = {'apples': 23, 'oranges': 10, 'bananas': 59}
+fruit_inventory['oranges'] = 25
+print(fruit_inventory)
+
+fruit_inventory['plums'] = 100 
+print(fruit_inventory) 
+
+print(fruit_inventory.keys()) 
+
+print(fruit_inventory.items()) 
+
+print(fruit_inventory.get('apples')) 
+
+fruit_inventory.pop('oranges') 
+print(fruit_inventory) 
+
+fruit_inventory.clear()
+print(fruit_inventory)
