@@ -170,3 +170,33 @@ print(red_river[::5])
 print(red_river[-1: -5: -1]) 
 
 # Tuples
+provinces_and_territories = ('BC', 'AB', 'MB', 'SK')
+tuple_without_parenthesis = 6, 5, 3
+print(type(provinces_and_territories))
+print(type(tuple_without_parenthesis))
+
+manitoba = provinces_and_territories[2] 
+print(manitoba)
+
+# The following line of code causes an exception: Tuple 
+# elements cannot be modified 
+#provinces_and_territories[2] = "Manitoba"
+provinces_and_territories = ('BC', 'AB', 'Manitoba', 'SK')
+print(provinces_and_territories)
+
+random_tuple = (1, 66, 3, 7, 42, 78, 12, 55) 
+length = len(random_tuple)
+print(length)
+
+max_num = max(random_tuple) 
+print(max_num) 
+
+min_num = min(random_tuple) 
+print(min_num)
+
+sum_numbers = sum(random_tuple) 
+print(sum_numbers) 
+
+sorted_tuple = sorted(random_tuple, reverse=False) 
+print(sorted_tuple) 
+print(type(sorted_tuple))
