@@ -60,3 +60,33 @@ print(uppercase)
 
 replaced_string = original_string.replace("Hello", "hi")
 print(replaced_string)
+
+# Standard operators
+result = 5 + 5
+print(result)
+
+result = 5 - 5
+print(result)
+
+result = 5 * 5
+print(result)
+
+result = 5 / 5
+print(result)
+
+result = 42 // 4
+print(result)
+
+result = 100 % 55 # modulus = remainder
+print(result)
+
+result = 2 ** 4
+print(result)
+
+age = 25
+age = age + 1
+age += 1
+print(age)
+
+result = ((10 + 5) *2) / 3 - 1
+print(result)
