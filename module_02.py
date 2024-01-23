@@ -221,3 +221,32 @@ print(fruit_inventory)
 
 fruit_inventory.clear()
 print(fruit_inventory)
+
+# Sets
+# Two sets. 
+primes = {2, 3, 5, 7, 11, 13, 17, 19, 23} 
+fives = set()
+print(primes)
+print(fives)
+
+primes.add(29)
+print(primes)
+fives.add(5) 
+print(fives)
+
+primes.remove(29) 
+print(primes) 
+
+fives.discard(2) 
+print(fives)
+
+primes = {2, 3, 5, 7, 11, 13, 17, 19, 23} 
+fives = {5, 10, 15, 20, 25, 30, 35} 
+union = primes.union(fives) 
+print(union)
+
+difference = primes.difference(fives) 
+print(difference)
+
+intersect = primes.intersection(fives) 
+print(intersect) 
